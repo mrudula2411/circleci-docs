@@ -11,4 +11,5 @@
 
 /src-js/** @circleci/docs-disco
 ./packages*.json @circleci/docs-disco
+./*.lock @circleci/docs-disco
 ./Gemfile* @circleci/docs-disco
