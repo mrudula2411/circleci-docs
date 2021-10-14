@@ -171,6 +171,22 @@ div.article-container{
       padding: 0 16px 0 16px;
       width: 100%;
   }
+
+
+  a:not([href*='{{site.baseurl}}']):not([href^='#']):not([href^='/']):after {
+      content: url({{site.baseurl}}/assets/img/icons/external.svg);
+      margin: 0 0 0 5px;
+			background-size: 16px 16px;
+			height: 16px;
+			width: 16px; 
+			display: inline-block;
+  }
+  .license-notice {
+	a:not([href*='{{site.baseurl}}']):not([href^='#']):not([href^='/']):after {
+		content: ' ';
+	}
+  }
+
   padding: 0 48px;
   width: calc(100% - #{$rightbar-width});
   max-width: 60em; // increase readability on large screens.

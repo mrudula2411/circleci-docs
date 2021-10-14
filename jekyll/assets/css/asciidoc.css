@@ -51,11 +51,3 @@ span.icon>.fa {
 .green{
   color: #43C78A;
 }
-
-.external-link-icon::after {
-	font-family: FontAwesome;
-	font-weight: 900;
-	content: "\f08e";
-	padding-left: 3px;
-	padding-top: 3px;
-}
