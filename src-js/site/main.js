@@ -360,6 +360,7 @@ $( document ).ready(function() {
       $(this).removeClass().addClass("external-link-anchor")
       $( inlineSVG ).appendTo(this);
       $(this).attr('target', '_blank')
+      $(this).attr('rel', 'noopener noreferrer')
     }
   });
 });
