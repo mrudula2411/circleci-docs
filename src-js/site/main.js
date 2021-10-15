@@ -28,7 +28,7 @@ window.analyticsTrackProps = function (el) {
 };
 
 // amplitude.getSessionId wrapper with reference guard
-getSessionId = function () {
+var getSessionId = function () {
   if (!window.amplitude || !amplitude.getSessionId) {
     return -1;
   }
